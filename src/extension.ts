@@ -38,7 +38,7 @@ export function activate(context: vscode.ExtensionContext) {
 		}));
 
 		const selectedFolder = await vscode.window.showQuickPick(folderOptions, {
-			placeHolder: 'Select a workspace directory to move its tabs to the active group',
+			placeHolder: 'Select a workspace directory to move its open files to the current tab group',
 		});
 
 		if (!selectedFolder) {
