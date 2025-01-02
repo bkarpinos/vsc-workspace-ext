@@ -1,6 +1,6 @@
-# workspace-organizer README
+# workspace-explorer README
 
-This is the README for your extension "workspace-organizer". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "workspace-explorer". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

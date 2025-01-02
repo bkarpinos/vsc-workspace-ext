@@ -1,7 +1,7 @@
 {
-  "name": "workspace-organizer",
-  "displayName": "workspace-organizer",
-  "description": "Organize open files by which workspace directory they belong to",
+  "name": "workspace-explorer",
+  "displayName": "workspace-explorer",
+  "description": "Explore open files by which workspace directory they belong to",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
@@ -14,12 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "workspace-organizer.helloWorld",
-        "title": "Hello World"
+        "command": "workspace-explorer.focusByDirectory",
+        "title": "Workspace Explorer: Search File"
       },
       {
-        "command": "workspace-organizer.gatherDirector",
-        "title": "Workspace Organizer: Gather Director"
+        "command": "workspace-explorer.openByDirectory",
+        "title": "Workspace Explorer: Open Folder"
       }
     ]
   },
