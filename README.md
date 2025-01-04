@@ -8,11 +8,15 @@ Workspace Explorer is a VS Code extension that allows you to explore open files 
   ```
   >Workspace Explorer: Search File
   ```
+  ![Workspace Explorer: Search File example gif](https://github.com/bkarpinos/vsc-workspace-ext/blob/main/example/search_file.gif?raw=true)
+
 
 - **Open By Directory**: Open all files within a selected workspace directory in a new column.
   ```
   >Workspace Explorer: Open Folder
   ```
+
+  ![Workspace Explorer: Open Folder example gif](https://github.com/bkarpinos/vsc-workspace-ext/blob/main/example/open_folder.gif?raw=true)
 
 ## Requirements
 
