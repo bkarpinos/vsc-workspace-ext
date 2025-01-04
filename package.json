@@ -1,9 +1,10 @@
 {
-  "name": "workspace-explorer",
-  "displayName": "workspace-explorer",
+  "name": "workspace-exp",
+  "displayName": "workspace-exp",
   "publisher": "bhk-dev",
-  "description": "Explore open files by which workspace directory they belong to",
+  "description": "Shortcut commands to explore and manage open files based on which workspace directory they belong to!",
   "repository": "https://github.com/bkarpinos/vsc-workspace-ext",
+  "homepage": "https://bhk.dev/projects/vscode-extension",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
