@@ -8,8 +8,15 @@ import * as vscode from 'vscode';
 suite('Extension Test Suite', () => {
 	vscode.window.showInformationMessage('Start all tests.');
 
-	test('Sample test', () => {
-		assert.strictEqual(-1, [1, 2, 3].indexOf(5));
-		assert.strictEqual(-1, [1, 2, 3].indexOf(0));
+	test('Focus By Directory Command', async () => {
+		const focusCommand = 'workspace-explorer.focusByDirectory';
+		const executed = await vscode.commands.executeCommand(focusCommand);
+		assert.strictEqual(executed, undefined, 'Focus By Directory command should execute without errors.');
+	});
+
+	test('Open By Directory Command', async () => {
+		const openCommand = 'workspace-explorer.openByDirectory';
+		const executed = await vscode.commands.executeCommand(openCommand);
+		assert.strictEqual(executed, undefined, 'Open By Directory command should execute without errors.');
 	});
 });
